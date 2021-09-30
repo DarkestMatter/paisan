@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/DarkestMatter/paisan/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DarkestMatter/paisan/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CraftingPixel.in</title>
+    <style type="text/css">
+      html, body {
+        height: 100%;
+      }
+      body {
+        background-color: #fff;
+        background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
+        color: #222;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      main {
+        padding: 1rem;
+        text-align: center;
+      }
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1.1;
+        margin: 0;
+      }
+      @media screen and (max-width: 480px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+      h1::after {
+        content: "";
+        background-color: #ffe800;
+        background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
+        display: block;
+        height: 0.5rem;
+        margin-top: 1rem;
+      }
+      p {
+        margin: 1rem 0 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CraftingPixel.in</h1>
+      <p>Our website is under construction.</p>
+    </main>
+  </body>
+</html>
